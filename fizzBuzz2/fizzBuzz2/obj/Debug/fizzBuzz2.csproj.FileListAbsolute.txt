@@ -1,0 +1,6 @@
+S:\TrentNagy Visual Stuff\idk\fizzBuzz2\fizzBuzz2\bin\Debug\fizzBuzz2.exe.config
+S:\TrentNagy Visual Stuff\idk\fizzBuzz2\fizzBuzz2\bin\Debug\fizzBuzz2.exe
+S:\TrentNagy Visual Stuff\idk\fizzBuzz2\fizzBuzz2\bin\Debug\fizzBuzz2.pdb
+S:\TrentNagy Visual Stuff\idk\fizzBuzz2\fizzBuzz2\obj\Debug\fizzBuzz2.csprojResolveAssemblyReference.cache
+S:\TrentNagy Visual Stuff\idk\fizzBuzz2\fizzBuzz2\obj\Debug\fizzBuzz2.exe
+S:\TrentNagy Visual Stuff\idk\fizzBuzz2\fizzBuzz2\obj\Debug\fizzBuzz2.pdb
