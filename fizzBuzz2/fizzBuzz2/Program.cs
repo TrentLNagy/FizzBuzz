@@ -41,35 +41,39 @@ namespace fizzBuzz2
             string one = "Fizz";
             string two = "Buzz";
 
-            //Start a loop that counts from 1 to 100 by 1s
+            //Start a loop that counts from 1 to 100 by 1s while
+            //also declaring an int, i, to reference the numbers
             for (int i = 1; i <= 100; i++)
             {
-                //if both x and y can be divided with a remainder of int z,
-                //write strings one and two
+                //if the int i is divisible by both X and Y, then replace i with
+                //string one and two
                 if (i % x == z && i % y == z)
                 {
                     Console.WriteLine(i + ": " + one + two);
                 }
-                //if only x can be divided with a remainder of int z,
-                //write string one
+                //if the previous doesn't apply, then if the int i is divisible
+                //by variable x, then replace i with string one
                 else if (i % x == z)
                 {
                     Console.WriteLine(i + ": " + one);
                 }
-                //if only y can be divided with a remainder of int z,
-                //write string two
+                //if the previous doesn't apply, then if the int i is divisible
+                //by variable y, then replace i with string two
                 else if (i % y == z)
                 {
                     Console.WriteLine(i + ": " + two);
                 }
                 //if neither can be divided with a remainder of int z,
-                //just write the number
+                //just write i.
                 else
                 {
                     Console.WriteLine(i);
                 }
             }
-            System.Threading.Thread.Sleep(5000*10);
+          //this makes the program sleep for a long time after it outputs to the console.
+          //this is to let the user read the output instead of immediately closing after
+          //the program has printed to the console.
+          System.Threading.Thread.Sleep(5000*10);
         }
     }
 }
